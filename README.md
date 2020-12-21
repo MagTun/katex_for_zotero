@@ -4,7 +4,7 @@ Add latex formula to Zotero notes, based on Katex
 
 
 ## How to get latex formula in Zotero note:
-1) download the folder katex_for_zotero from here (you should have a folder and inside these 4 files : katex.min.js, katex.min.css, plugin.css, plugin.js)
+1) download the folder katex_for_zotero (you should have a folder and inside these 4 files : katex.min.js, katex.min.css, plugin.css, plugin.js)
 
 2) Close zotero, go to your Zotero installation folder (ex: C:\Program Files (x86)\Zotero), make a backup of zotero.jar (ex: copy it and rename it into zotero-backup.jar), and move zotero.jar (not the backup) to your desktop
 
