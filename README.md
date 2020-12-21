@@ -8,7 +8,7 @@ Add latex formula to Zotero notes, based on Katex
 
 2) Close zotero, go to your Zotero installation folder (ex: C:\Program Files (x86)\Zotero), make a backup of zotero.jar (ex: copy it and rename it into zotero-backup.jar), and move zotero.jar (not the backup) to your desktop
 
-3) Open the zotero.jar with a zip manager (ex: e 7-zip). Alternatively, you can also unzip the .jar (this file is just a zip with another extension), but this can create some bugs.
+3) Open the zotero.jar with a zip manager (ex: 7-zip File Manager). Alternatively, you can also unzip the .jar (this file is just a zip with another extension), but this can create some bugs.
 
 4) In the zip manager, go to resource\tinymce\plugins and drag/drop the katex_for_zotero folder
 
