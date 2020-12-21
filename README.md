@@ -10,18 +10,18 @@ Add latex formula to Zotero notes, based on Katex
 
 3) Open the zotero.jar with a zip manager (ex: e 7-zip). Alternatively, you can also unzip the .jar (this file is just a zip with another extension), but this can create some bugs.
 
-3) In the zip manager, go to resource\tinymce\plugins and drag/drop the katex_for_zotero folder
+4) In the zip manager, go to resource\tinymce\plugins and drag/drop the katex_for_zotero folder
 
-4) Still in the zip manager, go to resource\tinymce\,  right-click on note.html and select "Edit". This will open the file in a text editor :
+5) Still in the zip manager, go to resource\tinymce\,  right-click on note.html and select "Edit". This will open the file in a text editor :
 
-4.1) replace `plugins: "autolink`  by `plugins: "katex_for_zotero, autolink`   
-4.2) just below the line `<script type="text/javascript" src="locale.js"></script>`, add these two lines:
+5.1) replace `plugins: "autolink`  by `plugins: "katex_for_zotero, autolink`   
+5.2) just below the line `<script type="text/javascript" src="locale.js"></script>`, add these two lines:
 	`<link type="text/css" rel="stylesheet" href="plugins/katex_for_zotero/katex.min.css" />
 	<script type="text/javascript" src="plugins/katex_for_zotero/katex.min.js"></script>`  
 
-5) Close the text editor (if your text editor can open several files at once, you need to close the text editor not just the file), go back to the zip manager and click Ok to update note.html
+6) Close the text editor (if your text editor can open several files at once, you need to close the text editor not just the file), go back to the zip manager and click Ok to update note.html
 
-6) Move the edited zotero.jar back in Zotero installation folder
+7) Move the edited zotero.jar back in Zotero installation folder
 
 
 ## How to use it:
@@ -65,5 +65,5 @@ I didn't find a way to fix this. The work around is to use the F5 shortcut to re
 
 4) The katex js and css should be loaded by the plugin and not by note.html but I didn't find a way to do it.
 
-
+5) I wasn't able to use Katex auto-render module because the latex formula are removed by the module once it has rendered them and thus Zotero loose the ability to display them after on F5
 
