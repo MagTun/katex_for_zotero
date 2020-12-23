@@ -66,5 +66,10 @@ I didn't find a way to fix this. The work around is to use the F5 shortcut to re
 
 4) The katex js and css should be loaded by the plugin and not by note.html but I didn't find a way to do it.
 
-5) I wasn't able to use Katex auto-render module because the latex formula are removed by the module once it has rendered them and thus Zotero loose the ability to display them after on F5
+5) I wasn't able to use Katex auto-render module (https://katex.org/docs/autorender.html) because the latex formula are removed by the module once it has rendered them and thus Zotero loose the ability to display them after on the next F5
+
+
+## Ressources
+http://mally.stanford.edu/~sr/computing/latex-example.html
+https://katex.org/docs/options.html
 
