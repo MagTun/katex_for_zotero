@@ -1,6 +1,7 @@
 # katex_for_zotero
 Add latex formula to Zotero notes, based on Katex
 
+<img src="https://user-images.githubusercontent.com/15843700/103015987-9f231780-4541-11eb-8952-646e66f13e5d.png" />
 
 
 ## How to get latex formula in Zotero note:
