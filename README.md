@@ -17,8 +17,8 @@ Add latex formula to Zotero notes, based on Katex
 
 5.1) replace `plugins: "autolink`  by `plugins: "katex_for_zotero, autolink`     
 5.2) just below the line `<script type="text/javascript" src="locale.js"></script>`, add these two lines:  
-	    `<link type="text/css" rel="stylesheet" href="plugins/katex_for_zotero/katex.min.css" />  `     
-	  `  <script type="text/javascript" src="plugins/katex_for_zotero/katex.min.js"></script>`
+	    `<link type="text/css" rel="stylesheet" href="plugins/katex_for_zotero/katex.css" />  `     
+	  `  <script type="text/javascript" src="plugins/katex_for_zotero/katex.js"></script>`
 
 6) Close the text editor (if your text editor can open several files at once, you need to close the text editor not just the file), go back to the zip manager and click Ok to update note.html
 
